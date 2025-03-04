@@ -1,0 +1,16 @@
+[project]
+name = "sample_app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pyside6>=6.8.2.1",
+]
+
+[project.scripts]
+sample_app = "sample_app:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
